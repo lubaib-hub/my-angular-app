@@ -33,4 +33,4 @@ jobs:
 
     - name: Deploy Angular to S3
       run: |
-        aws s3 sync ./dist/my-angular-app/ s3://my-angular-test-app-release/ --delete
+        aws s3 sync ./dist/my-angular-app/browser/ s3://my-angular-test-app-release/ --delete
